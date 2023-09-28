@@ -1,0 +1,36 @@
+body{
+    margin: 40px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #e8dada;
+    grid-gap: 15px;
+    color: #7a0909;
+}
+
+.box{
+    background-color: #850a0a;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.header{
+    grid-column: 1/6;
+}
+
+.article{
+    grid-column: 1/5;
+}
+
+.aside{
+    grid-column: 5/6;
+    grid-row: 2/4;
+}
+
+.footer{
+    grid-column: 1/6;
+}
